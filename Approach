@@ -1,0 +1,42 @@
+#APPROCH
+the overall approach
+
+START
+  |
+  v
+Take integer from user
+  |
+  v
+Is number negative?
+  |
+  +---- YES ---> Not Palindrome ---> END
+  |
+  NO
+  |
+  v
+Store original number
+  |
+  v
+Set reverse = 0
+  |
+  v
+While number != 0
+  |
+  +--> Extract last digit
+  |       digit = number % 10
+  |
+  +--> Add digit to reverse
+  |       reverse = reverse * 10 + digit
+  |
+  +--> Remove last digit
+          number = number / 10
+  |
+  v
+Compare originalNumber with reverse
+  |
+  +---- Equal ------> Palindrome
+  |
+  +---- Not Equal --> Not Palindrome
+  |
+  v
+END

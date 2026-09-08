@@ -1,9 +1,9 @@
-#	Input	Reverse	|Expected Result	|Reason
-1	121	121	|Palindrome	        |Same forward/backward
-2	123	321	|Not Palindrome	        |Different numbers
-3	1221	1221	|Palindrome	        |Same forward/backward
-4	0	0	|Palindrome	        |Single-digit number
-5	-121	—	|Not Palindrome	        |Negative number
-6	7	7	|Palindrome	        |Single-digit number
-7	10	1	|Not Palindrome	        |Different values
-8	1001	1001	|Palindrome	        |Same forward/backward
+#	Input	Reverse	Expected Result Reason
+1	121	121	Palindrome	 Same forward/backward
+2	123	321	Not Palindrome	 Different numbers
+3	1221	1221	Palindrome	 Same forward/backward
+4	0	0	Palindrome	 Single-digit number
+5	-121	—	Not Palindrome	 Negative number
+6	7	7	Palindrome	 Single-digit number
+7	10	1	Not Palindrome	 Different values
+8	1001	1001	Palindrome	 Same forward/backward
